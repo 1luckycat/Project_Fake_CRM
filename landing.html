@@ -1,12 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="landing.css">
     <title>CRM Landing Page</title>
+
+    <!--Mo added google font link here for Heebo font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="./images/logo.png" id="img_logo">
+            </div>
+            <div class="nav_bar">
+                <ul>
+                    <li>Home</li>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>How it Works</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div class="nav_button">
+                <button type="nav_button1" id="sign_in">Sign In</button>
+                <button type="nav_button1" id="try">Try it Free</button>
+            </div>
+        </div>
+
+        <div class="top_box">
+            <div class="focus">
+                <h1>Focus on <br>Your Business</h1>
+                <h2>Let us handle everything else</h2>
+                <p>Subscription billing, powered with revenue retention tools and a seamless customer
+                    experience - without the technical hurdles.
+                </p>
+                <div class="top_box_button">
+                    <button type="top_button" id="sign_up">Sign Up Free &nbsp; &nbsp;<i
+                            class="fa-solid fa-angles-right"></i>
+                    </button>
+                    <button type="top_button" id="top_chat">Chat with us <i
+                            class="fa-regular fa-comment"></i></button><br>
+                </div>
+                <p1>Already using DoubleTap? Sign in</p1>
+                <p2>Free 14 day trial &nbsp; &nbsp; <span style="color:blue"><span style=font-size:15px>•</span></span>
+                     &nbsp; &nbsp;Manage customers in minutes &nbsp; &nbsp; <span style="color:blue"><span style=font-size:15px>•
+                    </span></span>&nbsp; &nbsp; Cancel at anytime</p2>
+                <div class="bunch" id="img_bunch">
+                    <img src="./images/Header-Side.png" id="side_bunch">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="explore">
+            <h1>Start to explore DoubleTap</h1>
+            <p>A new and better way for small businesses to manage their customer base, payments and
+                keep track of internal tasks.
+            </p>
+        </div>
+
+        <div class="icon_container">
+            <div class="icons" id="payments">
+                <img src="./images/bitcoin.svg" id="bitcoin" alt="">
+                <p>Payments</p>
+            </div>
+            <div class="icons" id="retention">
+                <img src="./images/retention.svg" id="ret" alt="">
+                <p>Retention</p>
+            </div>
+            <div class="icons" id="reporting">
+                <img src="./images/dot-chart.svg" id="dot" alt="">
+                <p>Reporting</p>
+            </div>
+            <div class="icons" id="conversion">
+                <img src="./images/conversions.svg" id="conver" alt="">
+                <p>Conversions</p>
+            </div>
+        </div>
+
+        <div class="img_box">
+            <div class="credit_card">
+                <img src="./images/credit-card.png" id="credit" alt="">
+            </div>
+            <div class="box_text" id="top_text">
+                <h2>Start accepting payments with ease</h2>
+            </div>
+            <div class="box_text" id="middle_text">
+                <p>Deliver the world of payment options and seamless checkout experiences, making it easy
+                    for your customers to pay you for your products and services.</p>
+            </div>
+            <div class="box_text" id="bullets">
+                <ul>
+                    <li>Process transactions in up to 32 different currencies</li>
+                    <li>Integrate with popular payment gateways like Stripe and Braintree</li>
+                    <li>Accept credit & debit cards, Paypayl, ACH, Apple Pay and more with the swipe
+                        of a finger
+                    </li>
+                    <li>Select from a variety of different checkout options and experiences</li>
+                </ul>
+            </div>
+            <button type="learn_button" id="learn">Learn more <i class="fa-solid fa-angles-right"></i></button>
+        </div>
+
+        <h3>Solutions to fit your business needs</h3>
+
+        <div class="circle_icon_container">
+            <div class="circle_icon" id="email">
+                <i class="fa-solid fa-laptop" id="laptop"></i>
+                <h2>Email Dashboards</h2>
+                <p>Automate client responses and keep track of any communication your team has
+                    with a client</p>
+                <button type="learn_button" id="button2">Learn more <i class="fa-solid fa-angles-right"></i></button>
+            </div>
+            <div class="circle_icon" id="task">
+                <i class="fa-regular fa-square-check" id="check"></i>
+                <h2>Task Management</h2>
+                <p>Automate client responses and keep track of any communication your team has
+                    with a client</p>
+                <button type="learn_button" id="button2">Learn more <i class="fa-solid fa-angles-right"></i></button>
+            </div>
+            <div class="circle_icon" id="user">
+                <i class="fa-solid fa-chart-simple" id="chart"></i>
+                <h2>User Analytics</h2>
+                <p>Automate client responses and keep track of any communication your team has
+                    with a client</p>
+                <button type="learn_button" id="button2">Learn more <i class="fa-solid fa-angles-right"></i></button>
+            </div>
+            <div class="circle_icon" id="project">
+                <i class="fa-regular fa-calendar" id="calendar"></i>
+                <h2>Project Calendars</h2>
+                <p>Automate client responses and keep track of any communication your team has
+                    with a client</p>
+                <button type="learn_button" id="button2">Learn more <i class="fa-solid fa-angles-right"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_box">
+            <h1>Try DoubleTap Today!</h1>
+            <p>Let's Get Started!</p>
+            <button type="get_started" id="get_b">Get started <i class="fa-solid fa-angles-right"></i></button>
+            <button type="chat" id="chat_b">Chat with us <i class="fa-regular fa-comment"></i></button><br>
+            <p1>Free 14 day trial &nbsp; &nbsp;• &nbsp; &nbsp;Manage customers in minutes &nbsp; &nbsp; •
+                &nbsp; &nbsp; Cancel at anytime</p1>
+        </div>
+    </footer>
+
+
 </body>
+
+<!--Mo added link here to use images at fontawesome.com-->
+<script src="https://kit.fontawesome.com/43813a7e09.js" crossorigin="anonymous"></script>
+
 </html>
