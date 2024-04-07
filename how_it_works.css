@@ -34,6 +34,10 @@ li:hover {
     color: rgb(0, 100, 275);
 }
 
+a {
+    color: black;
+}
+
 a:hover {
     color: rgb(0, 100, 275);
     text-decoration: none;
