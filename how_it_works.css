@@ -34,6 +34,11 @@ li:hover {
     color: rgb(0, 100, 275);
 }
 
+a:hover {
+    color: rgb(0, 100, 275);
+    text-decoration: none;
+}
+
 .nav_button {
     margin-top: 10px;
     margin-right: 20px;
