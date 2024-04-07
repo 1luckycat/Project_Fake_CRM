@@ -30,7 +30,7 @@
     font-weight: bold;
 }
 
-li:hover {
+.nav_bar > ul > li:hover {
     color: rgb(0, 100, 275);
     text-decoration: none;
 }
